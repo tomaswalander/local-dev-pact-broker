@@ -1,0 +1,20 @@
+{
+  "name": "local-pact-broker",
+  "version": "1.0.0",
+  "description": "Support for running a PactBroker locally and easily publish tagged contracts to it from the command line.",
+  "main": "index.js",
+  "author": "Tomas Walander<twalander@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "twal-publish-contract": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "commander": "^3.0.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "22.4.4",
+    "prettier": "^1.18.2"
+  }
+}
